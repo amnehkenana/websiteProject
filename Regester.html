@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Pag Regester</title>
+<style>
+h2{
+color:#6938a4}
+input[type=text]{
+width:100%;
+padding: 10px 15px;
+margin :20px 1;
+display:inline-block;
+border: 2px solid #e5d676;
+ border-radius: 8px;
+  box-sizing: border-box;
+		}
+		input[type=submit] {
+    width: 100%;
+    background-color: #9673bf;
+    color: white;
+    padding: 20px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}
+	
+	input[type=submit]:hover {
+    background-color: #e5c2d8;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #eaeaea;
+    padding: 20px;
+}
+</style>
+
+</head>
+<body>
+<h2>Complet The Regester</h2>
+<div>
+<form action="InsertUserInfo.php" method="post">
+<label >Enter Name</label>
+<input type="text"  name="Name" placeholder="Your Name...">
+
+<label>Email</label>
+<input type="text"  name="Email" placeholder="Your Email...">
+
+<label>Phone</label>
+<input type="text"  name="Phone" placeholder="Your Phone...">
+
+<label>Password</label>
+<input type="text" name="Password"placeholder="Your Password...">
+
+<input type="submit" value="submit">
+</form>
+</div>
+
+</body>
+</html>
